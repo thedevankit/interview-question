@@ -28,7 +28,7 @@ console.log(sortedArray[sortedArray.length-2],'2nd largest element in array ');
 console.log(sortedArray);
 //Odd and even numbers in array.
 oddValues = sortedArray.filter((item)=>item % 2==1);
-console.log("Unique sorted odd values");
+console.log("Unique sorted odd values first than even values in array");
 console.log(oddValues);
 console.log(segregateEvenOddnumber(sortedArray))
 
@@ -54,7 +54,7 @@ function segregateEvenOddnumber(sortedArray){
 // 1 '2nd Smallest element in array '
 // 8 '2nd largest element in array '
 // [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
-// Unique sorted odd values
+// Unique sorted odd values first than even values in array
 // [ 1, 3, 5, 7, 9 ]
 // [ 1, 3, 5, 7, 9, 2, 6, 0, 8, 4 ]
 
