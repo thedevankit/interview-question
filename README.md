@@ -46,8 +46,6 @@ function segregateEvenOddnumber(sortedArray){
     return sortedArray;
 }
 
-```
-
 // Output:
 // [ 1, 2, 3, 6, 4, 8, 9, 7, 5, 0 ]
 // Unique sorted array values
@@ -60,9 +58,4 @@ function segregateEvenOddnumber(sortedArray){
 // [ 1, 3, 5, 7, 9 ]
 // [ 1, 3, 5, 7, 9, 2, 6, 0, 8, 4 ]
 
-
-
-
-
-
-
+```
