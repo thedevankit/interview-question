@@ -1,5 +1,6 @@
 # Interview-question
 
+```
 // Online Javascript Editor for free
 // Write, Edit and Run your Javascript code using JS Online Compiler
     
@@ -33,8 +34,7 @@ console.log(segregateEvenOddnumber(sortedArray))
 
 function segregateEvenOddnumber(sortedArray){
     let j=-1; 
-    let temp;
-    
+    let temp;    
     for(i=0;i<sortedArray.length;i++){
         if(sortedArray[i]%2==1){
             j++;
@@ -46,7 +46,7 @@ function segregateEvenOddnumber(sortedArray){
     return sortedArray;
 }
 
-
+```
 
 // Output:
 // [ 1, 2, 3, 6, 4, 8, 9, 7, 5, 0 ]
